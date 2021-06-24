@@ -1,0 +1,42 @@
+body{
+    /*    https://webgradients.com/    */
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #0d090f 0%, #4f47b8 33%, #523ec5 66%, #3816b4 100%);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .container{
+    margin: 50px auto;
+    color: #135617;
+    width:410px ;
+  }
+  .key{
+    width: 70px;
+    height: 50px;
+    border: 2px solid #135617;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  kbd{
+    font-size: 25px;
+    font-weight:bold;
+  }
+  .playing{
+    border: 2px yellow solid;
+    color: yellow;
+    background-color:#519655;
+  }
+  .endTag{
+    position:relative;
+    top: 70px;
+    text-align:center;
+    font-size: 10px;
+  }
+  a{
+    text-decoration:none;
+    color:#edc9e0;
+  }
+  a:hover{
+    color:red;
+  }
